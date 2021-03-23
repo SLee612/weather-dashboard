@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+  }
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+  	margin: 0;
+  	display: flex;
+  	flex-direction: column;
+  	min-height: 50px;
+  	justify-content: flex-start;
+	background-color: aliceblue;
+  
+}
+.navbar-brand {
+	padding: 40px;
+  	text-align: center;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: #0789aa;
+	color: white;
+	border: 2px solid darkslateblue;
+}
+
+.city-info {
+	background-color: lightgray;
+}
+
+h5 {
+	color: darkslategray;
+}
+
+h3 {
+	color: darkslateblue;
+}
+
+.clear-history {
+	background-color: skyblue;
+}
